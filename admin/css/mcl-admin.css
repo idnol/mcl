@@ -1,0 +1,60 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.mcl-admin {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.mcl-title {
+    margin-bottom: 30px;
+}
+.mcl-row {
+    width: 50%;
+    background: #f4f4f4;
+    padding: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.42);
+    border-radius: 10px;
+}
+.mcl-admin form {
+    display: flex;
+    flex-direction: column;
+}
+.mcl-link {
+    margin-bottom: 15px !important;
+}
+.mcl-submit {
+    padding: 10px 20px;
+    background: #1b1b1b;
+    color: #fff;
+    border: none;
+    margin-top: 15px;
+}
+.mcl-submit:hover {
+    background: #333;
+}
+.mcl-setting-title {
+    font-weight: 600;
+    margin: 15px 0 5px 0;
+    text-align: center;
+}
+.mcl-main-title {
+    margin-bottom: 0;
+    text-align: center;
+}
+.wp-picker-container {
+    text-align: center;
+}
+.mcl-desc-block {
+    flex-direction: column;
+    justify-content: start;
+}
+/*.rect-start-msg {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    display: none;*/
+/*}*/

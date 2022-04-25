@@ -1,0 +1,86 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.mcl-main {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 30px;
+    z-index: 10000;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: end;
+}
+.mcl-text {
+    margin-left: 10px;
+    font-weight: 600;
+    color: #fff;
+}
+.mcl-main-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.mcl-chats {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+.mcl-telegram {
+    background: #0088cc;
+}
+.mcl-viber {
+    background: #7360f2;
+}
+.mcl-email {
+    background: #bb0b0b;
+}
+.mcl-close {
+    width: 25px;
+    height: 25px;
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    border-radius: 50%;
+}
+.mcl-chats-small {
+    width:50px;
+    height:50px
+}
+.mcl-chats-big {
+    width:75px;
+    height:75px
+}
+.mcl-chats-img-small {
+    width:25px;
+}
+.mcl-chats-img-big {
+    width:35px;
+}
+.mcl-main-btn-small {
+    width:50px;
+    height:50px;
+}
+.mcl-main-btn-big {
+    width:75px;
+    height:75px;
+}
+.mcl-main-btn-rectangle {
+    width:max-content;
+    padding:10px 20px;
+    border-radius:5px 5px 0 0;
+}
+.mcl-chats-img-close {
+    width: 15px;
+    display: none;
+}
+.mcl-chats-buttons {
+    display: none;
+}
