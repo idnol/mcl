@@ -35,9 +35,9 @@ const mclMainButton = document.querySelector('.mcl-main-btn');
 // const mclMainImage = document.querySelector('.mcl-chats-main-img');
 // const mclCloseImage = document.querySelector('.mcl-chats-img-close');
 
-function DisplayChatsButtons(){
-	document.querySelector('.mcl-chats-main-img').style.display = 'none';
-	document.querySelector('.mcl-chats-img-close').style.display = 'block';
-	document.querySelector('.mcl-chats-buttons').style.display = 'block';
-	document.querySelector('.mcl-chats-buttons').style.transition = '5s';
-}
+// function DisplayChatsButtons(){
+// 	document.querySelector('.mcl-chats-main-img').style.display = 'none';
+// 	document.querySelector('.mcl-chats-img-close').style.display = 'block';
+// 	document.querySelector('.mcl-chats-buttons').style.display = 'block';
+// 	document.querySelector('.mcl-chats-buttons').style.transition = '5s';
+// }
